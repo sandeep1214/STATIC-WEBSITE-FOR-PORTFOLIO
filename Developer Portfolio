@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Developer Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Hi, I'm a developer passionate about building amazing web applications.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I’m SANDEEP, a recent graduate in BTECH from MARRI LAXMAN REDDY INSTITUTE OF TECHNOLOGY AND MANAGEMENT, where I specialized in INFORMATION TECHNOLOGY. During my studies, I developed a strong foundation in Java, Python, Sql and Html which aligns well with the requirements of this role.</p>
+
+<p>As part of my academic journey, I worked on INTERNSHIPS such as INTERNPE AND CODECLAUSE and coming to my PROJECTS,I worked on HAND CONTROLLED VIRTUAL MOUSE AND DRIVER BEHAVIOUR RECOGNIZATION BASED ON CNN. This experience helped me on my  problem-solving, teamwork, communication and taught me how to approach challenges effectively.</p>
+
+<p>I am passionate about  technology, data analysis, creative problem-solving, and I am excited about the opportunity to bring my enthusiasm and skills to your Company.</p>
+
+<p>Outside of my academics, I enjoy  reading, co ding, playing cricket, and listening music in free time.</P>
+
+<p>My strengths are I'm self-motivating person and i have strong communication skills also.</P>
+
+<p>My short term goal is to get a job in reputed company and long term goal is to achieve a good position, where i can build my carrer and help the organisation too.</P>
+
+<p>Lastly I'm a quick learner and believe in learning from my past mistakes and experiences.
+</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>JAVA</li>
+            <li>SQL</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+                    </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>DRIVER BEHAVIORS RECOGNIZER BASED ON LIGHT-WEIGHT CONVOLUTIONAL NEURAL NETWORK
+The objective of this project is to proposes a solution to recognize driver behaviors through a simple Convolutional Neural Network (CNN) architecture combined with the attention technique by simplifying the devices, making them non-invasive for drivers and saving costs.</p>
+<p>HAND CONTROLLED VIRTUAL MOUSE
+The objective of this project “Hand controlled virtual mouse” is a computer input system, that allows users to move the cursor using their hand movements, enabling hands-free navigation and interaction with the computer. </p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: sandeepsandy818487@gmail.com</p>
+        <p>Mobile No: 9876543210</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Developer Portfolio</p>
+    </footer>
+</body>
+</html>
