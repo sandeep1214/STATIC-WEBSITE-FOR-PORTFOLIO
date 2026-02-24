@@ -84,5 +84,5 @@ You can host this portfolio using **GitHub Pages**:
 ## Sandeep Donthagani
 - **Email**: sandeepdonthagani6022@gmail.com
 - **Phone**: +44 7352 672764
-- **GitHub**: github.com/sandeep1214
-- **LinkedIn**: linkedin.com/in/sandeep-donthagani-3884a7235
+- **GitHub**: [github.com/sandeep1214](https://github.com/sandeep1214)  
+- **LinkedIn**: [linkedin.com/in/sandeep-donthagani-3884a7235](https://www.linkedin.com/in/sandeep-donthagani-3884a7235/)
