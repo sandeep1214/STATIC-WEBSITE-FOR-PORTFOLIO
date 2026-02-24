@@ -64,14 +64,14 @@ You can host this portfolio using **GitHub Pages**:
 - Set the branch to main (or master) and root folder as /
 - The site will be live at: `https://<username>.github.io/<repo-name>/`
 
-  # 📁 Project Structure
-
+# 📁 Project Structure
+```
   portfolio/
 │
 ├── index.html        # Main portfolio page
 ├── style.css         # Optional external CSS if separated
 └── assets/           # Images or media (optional)
-  
+ ``` 
 # 💡 Customization
 
  You can easily update the portfolio:
