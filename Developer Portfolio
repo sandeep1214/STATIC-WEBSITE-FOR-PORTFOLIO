@@ -6,6 +6,7 @@
     <title>Developer Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
         <h1>Developer Portfolio</h1>
@@ -22,50 +23,55 @@
     
     <section id="home">
         <h2>Welcome to My Portfolio</h2>
-        <p>Hi, I'm a developer passionate about building amazing web applications.</p>
+        <p>Hello! I'm Sandeep, a developer passionate about building intelligent, efficient, and user-friendly applications.</p>
     </section>
 
     <section id="about">
         <h2>About Me</h2>
-        <p>I’m SANDEEP, a recent graduate in BTECH from MARRI LAXMAN REDDY INSTITUTE OF TECHNOLOGY AND MANAGEMENT, where I specialized in INFORMATION TECHNOLOGY. During my studies, I developed a strong foundation in Java, Python, Sql and Html which aligns well with the requirements of this role.</p>
 
-<p>As part of my academic journey, I worked on INTERNSHIPS such as INTERNPE AND CODECLAUSE and coming to my PROJECTS,I worked on HAND CONTROLLED VIRTUAL MOUSE AND DRIVER BEHAVIOUR RECOGNIZATION BASED ON CNN. This experience helped me on my  problem-solving, teamwork, communication and taught me how to approach challenges effectively.</p>
+        <p>My name is <strong>Sandeep</strong>, and I am currently pursuing my <strong>MSc in Data Science</strong> at the <strong>University of Hertfordshire, United Kingdom</strong>. My Master's program equips me with advanced skills in machine learning, artificial intelligence, data analytics, and statistical modelling.</p>
 
-<p>I am passionate about  technology, data analysis, creative problem-solving, and I am excited about the opportunity to bring my enthusiasm and skills to your Company.</p>
+        <p>I previously completed my <strong>B.Tech in Information Technology</strong> from <strong>Marri Laxman Reddy Institute of Technology and Management</strong>, where I developed a strong foundation in programming, problem-solving, and software development.</p>
 
-<p>Outside of my academics, I enjoy  reading, co ding, playing cricket, and listening music in free time.</P>
+        <p>During my academic journey, I completed internships at <strong>InternPe</strong> and <strong>CodeClause</strong>, allowing me to gain hands-on experience in real-world problem-solving and collaborative development.</p>
 
-<p>My strengths are I'm self-motivating person and i have strong communication skills also.</P>
+        <p>I have worked on impactful academic projects such as <strong>Hand-Controlled Virtual Mouse</strong> and <strong>Driver Behaviour Recognition Using CNN</strong>, which enhanced my expertise in computer vision, deep learning, and user-interaction systems.</p>
 
-<p>My short term goal is to get a job in reputed company and long term goal is to achieve a good position, where i can build my carrer and help the organisation too.</P>
+        <p>I am passionate about technology, data science, AI-driven solutions, and creative problem-solving. I enjoy taking on challenging tasks that allow me to learn, grow, and contribute meaningfully to innovative organizations.</p>
+        
+        <p>Outside academics, I enjoy reading, coding, playing cricket, and listening to music. I consider myself a self-motivated individual with strong communication skills and a continuous learning mindset.</p>
 
-<p>Lastly I'm a quick learner and believe in learning from my past mistakes and experiences.
-</p>
+        <p>My short-term goal is to secure a role in a reputed company, and my long-term goal is to grow into a position where I can make a meaningful impact while helping the organisation grow as well.</p>
     </section>
 
     <section id="skills">
         <h2>Skills</h2>
         <ul>
-            <li>JAVA</li>
+            <li>Java</li>
+            <li>Python</li>
             <li>SQL</li>
-            <li>HTML</li>
-            <li>CSS</li>
+            <li>HTML & CSS</li>
             <li>JavaScript</li>
-                    </ul>
+            <li>Computer Vision</li>
+            <li>Machine Learning</li>
+            <li>Data Analytics</li>
+        </ul>
     </section>
 
     <section id="projects">
         <h2>Projects</h2>
-        <p>DRIVER BEHAVIORS RECOGNIZER BASED ON LIGHT-WEIGHT CONVOLUTIONAL NEURAL NETWORK
-The objective of this project is to proposes a solution to recognize driver behaviors through a simple Convolutional Neural Network (CNN) architecture combined with the attention technique by simplifying the devices, making them non-invasive for drivers and saving costs.</p>
-<p>HAND CONTROLLED VIRTUAL MOUSE
-The objective of this project “Hand controlled virtual mouse” is a computer input system, that allows users to move the cursor using their hand movements, enabling hands-free navigation and interaction with the computer. </p>
+
+        <h3>Driver Behaviour Recognition using Lightweight CNN</h3>
+        <p>This project proposes a CNN-based solution to recognize driver behavior using a lightweight neural network combined with attention mechanisms. The system is designed to be non-invasive, cost-effective, and efficient in identifying risky or distracted driving patterns.</p>
+
+        <h3>Hand-Controlled Virtual Mouse</h3>
+        <p>An AI-based human-computer interaction system that enables users to control the mouse cursor using hand gestures. This project leverages computer vision techniques to provide touch-free, gesture-based navigation.</p>
     </section>
 
     <section id="contact">
         <h2>Contact</h2>
-        <p>Email: sandeepsandy818487@gmail.com</p>
-        <p>Mobile No: 9876543210</p>
+        <p>Email: <a href="mailto:sandeepsandy818487@gmail.com">sandeepsandy818487@gmail.com</a></p>
+        <p>Mobile: 9876543210</p>
     </section>
 
     <footer>
