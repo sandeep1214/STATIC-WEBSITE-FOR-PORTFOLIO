@@ -1,81 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Developer Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sandeep | Data Science Portfolio</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #0f172a;
+    color: #f1f5f9;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    background: #020617;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: #f1f5f9;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+/* Hero Section */
+.hero {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.hero span {
+    color: #38bdf8;
+}
+
+.hero p {
+    max-width: 600px;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #38bdf8;
+    color: #0f172a;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #0ea5e9;
+}
+
+/* Sections */
+section {
+    padding: 70px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    color: #38bdf8;
+}
+
+/* Skills */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill {
+    background: #1e293b;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.skill:hover {
+    background: #38bdf8;
+    color: #0f172a;
+}
+
+/* Projects */
+.project {
+    background: #1e293b;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+}
+
+/* Contact */
+.contact p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+    margin-top: 40px;
+}
+</style>
 </head>
 
 <body>
-    <header>
-        <h1>Developer Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <section id="home">
-        <h2>Welcome to My Portfolio</h2>
-        <p>Hello! I'm Sandeep, a developer passionate about building intelligent, efficient, and user-friendly applications.</p>
-    </section>
 
-    <section id="about">
-        <h2>About Me</h2>
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
 
-        <p>My name is <strong>Sandeep</strong>, and I am currently pursuing my <strong>MSc in Data Science</strong> at the <strong>University of Hertfordshire, United Kingdom</strong>. My Master's program equips me with advanced skills in machine learning, artificial intelligence, data analytics, and statistical modelling.</p>
+<div class="hero">
+    <h1>Hi, I'm <span>Sandeep</span></h1>
+    <p>Data Science postgraduate passionate about Machine Learning, AI, Computer Vision, and building intelligent real-world solutions.</p>
+    <div>
+        <a href="mailto:sandeepdonthagani6022@gmail.com" class="btn">Hire Me</a>
+        <a href="https://github.com/sandeep1214" target="_blank" class="btn">GitHub</a>
+        <a href="https://www.linkedin.com/in/sandeep-donthagani-3884a7235/" target="_blank" class="btn">LinkedIn</a>
+    </div>
+</div>
 
-        <p>I previously completed my <strong>B.Tech in Information Technology</strong> from <strong>Marri Laxman Reddy Institute of Technology and Management</strong>, where I developed a strong foundation in programming, problem-solving, and software development.</p>
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am currently pursuing my MSc in Data Science in the United Kingdom. I hold a B.Tech in Information Technology and have gained practical experience through internships and real-world academic projects.
+        My interests include Artificial Intelligence, Deep Learning, Data Analytics, and Computer Vision.
+    </p>
+</section>
 
-        <p>During my academic journey, I completed internships at <strong>InternPe</strong> and <strong>CodeClause</strong>, allowing me to gain hands-on experience in real-world problem-solving and collaborative development.</p>
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+        <div class="skill">Python</div>
+        <div class="skill">Java</div>
+        <div class="skill">SQL</div>
+        <div class="skill">Machine Learning</div>
+        <div class="skill">Computer Vision</div>
+        <div class="skill">Data Analytics</div>
+        <div class="skill">HTML & CSS</div>
+        <div class="skill">JavaScript</div>
+    </div>
+</section>
 
-        <p>I have worked on impactful academic projects such as <strong>Hand-Controlled Virtual Mouse</strong> and <strong>Driver Behaviour Recognition Using CNN</strong>, which enhanced my expertise in computer vision, deep learning, and user-interaction systems.</p>
+<section id="projects">
+    <h2>Projects</h2>
 
-        <p>I am passionate about technology, data science, AI-driven solutions, and creative problem-solving. I enjoy taking on challenging tasks that allow me to learn, grow, and contribute meaningfully to innovative organizations.</p>
-        
-        <p>Outside academics, I enjoy reading, coding, playing cricket, and listening to music. I consider myself a self-motivated individual with strong communication skills and a continuous learning mindset.</p>
+    <div class="project">
+        <h3>Driver Behaviour Recognition using CNN</h3>
+        <p>
+            Developed a lightweight CNN model to detect distracted or risky driving behaviours using computer vision techniques.
+        </p>
+    </div>
 
-        <p>My short-term goal is to secure a role in a reputed company, and my long-term goal is to grow into a position where I can make a meaningful impact while helping the organisation grow as well.</p>
-    </section>
-
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Java</li>
-            <li>Python</li>
-            <li>SQL</li>
-            <li>HTML & CSS</li>
-            <li>JavaScript</li>
-            <li>Computer Vision</li>
-            <li>Machine Learning</li>
-            <li>Data Analytics</li>
-        </ul>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-
-        <h3>Driver Behaviour Recognition using Lightweight CNN</h3>
-        <p>This project proposes a CNN-based solution to recognize driver behavior using a lightweight neural network combined with attention mechanisms. The system is designed to be non-invasive, cost-effective, and efficient in identifying risky or distracted driving patterns.</p>
-
+    <div class="project">
         <h3>Hand-Controlled Virtual Mouse</h3>
-        <p>An AI-based human-computer interaction system that enables users to control the mouse cursor using hand gestures. This project leverages computer vision techniques to provide touch-free, gesture-based navigation.</p>
-    </section>
+        <p>
+            Built an AI-based gesture recognition system that allows users to control their computer cursor using hand movements.
+        </p>
+    </div>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:sandeepsandy818487@gmail.com">sandeepsandy818487@gmail.com</a></p>
-        <p>Mobile: 9876543210</p>
-    </section>
+</section>
 
-    <footer>
-        <p>&copy; 2025 Developer Portfolio</p>
-    </footer>
+<section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Email: sandeepdonthagani6022@gmail.com</p>
+    <p>Phone: +44 7352672764</p>
+</section>
+
+<footer>
+    © 2026 Sandeep | Data Science Portfolio
+</footer>
+
 </body>
 </html>
