@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sandeep | Data Science Portfolio</title>
+<title>Sandeep Donthagani | Data Science Portfolio</title>
 
 <style>
 * {
@@ -44,7 +44,7 @@ nav a:hover {
     color: #38bdf8;
 }
 
-/* Hero Section */
+/* Hero */
 .hero {
     height: 90vh;
     display: flex;
@@ -66,7 +66,7 @@ nav a:hover {
 }
 
 .hero p {
-    max-width: 600px;
+    max-width: 650px;
     margin-bottom: 25px;
     line-height: 1.6;
 }
@@ -75,7 +75,6 @@ nav a:hover {
     padding: 10px 20px;
     background: #38bdf8;
     color: #0f172a;
-    border: none;
     border-radius: 5px;
     text-decoration: none;
     margin: 5px;
@@ -101,6 +100,19 @@ h2 {
     color: #38bdf8;
 }
 
+/* Cards */
+.card {
+    background: #1e293b;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
 /* Skills */
 .skills {
     display: flex;
@@ -119,19 +131,6 @@ h2 {
 .skill:hover {
     background: #38bdf8;
     color: #0f172a;
-}
-
-/* Projects */
-.project {
-    background: #1e293b;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    transition: 0.3s;
-}
-
-.project:hover {
-    transform: translateY(-5px);
 }
 
 /* Contact */
@@ -154,14 +153,17 @@ footer {
 
 <nav>
     <a href="#about">About</a>
+    <a href="#objective">Objective</a>
+    <a href="#education">Education</a>
     <a href="#skills">Skills</a>
     <a href="#projects">Projects</a>
+    <a href="#certifications">Certifications</a>
     <a href="#contact">Contact</a>
 </nav>
 
 <div class="hero">
-    <h1>Hi, I'm <span>Sandeep</span></h1>
-    <p>Data Science postgraduate passionate about Machine Learning, AI, Computer Vision, and building intelligent real-world solutions.</p>
+    <h1>Hi, I'm <span>Sandeep Donthagani</span></h1>
+    <p>MSc Data Science student passionate about Machine Learning, AI, Data Analytics, and building intelligent real-world solutions.</p>
     <div>
         <a href="mailto:sandeepdonthagani6022@gmail.com" class="btn">Hire Me</a>
         <a href="https://github.com/sandeep1214" target="_blank" class="btn">GitHub</a>
@@ -171,53 +173,91 @@ footer {
 
 <section id="about">
     <h2>About Me</h2>
-    <p>
-        I am currently pursuing my MSc in Data Science in the United Kingdom. I hold a B.Tech in Information Technology and have gained practical experience through internships and real-world academic projects.
-        My interests include Artificial Intelligence, Deep Learning, Data Analytics, and Computer Vision.
-    </p>
+    <div class="card">
+        <p>
+            I am currently pursuing my MSc in Data Science in the United Kingdom. 
+            I completed my B.Tech in Information Technology, Hyderabad, India. 
+            I have hands-on experience in machine learning, computer vision, and data analysis through academic projects and internships.
+        </p>
+    </div>
+</section>
+
+<section id="objective">
+    <h2>Career Objective</h2>
+    <div class="card">
+        <p>
+            To obtain a Data Science role where I can apply analytical, technical, and problem-solving skills 
+            to generate data-driven insights and contribute effectively to organisational growth.
+        </p>
+    </div>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+    <div class="card">
+        <strong>MSc Data Science (Ongoing)</strong><br>
+        University of Hertfordshire, UK
+    </div>
+    <div class="card">
+        <strong>B.Tech Information Technology (2020–2024)</strong><br>
+        Marri Laxman Reddy Institute of Technology and Management<br>
+        Hyderabad, India
+    </div>
 </section>
 
 <section id="skills">
-    <h2>Skills</h2>
+    <h2>Technical Skills</h2>
     <div class="skills">
         <div class="skill">Python</div>
-        <div class="skill">Java</div>
         <div class="skill">SQL</div>
         <div class="skill">Machine Learning</div>
-        <div class="skill">Computer Vision</div>
-        <div class="skill">Data Analytics</div>
-        <div class="skill">HTML & CSS</div>
-        <div class="skill">JavaScript</div>
+        <div class="skill">Data Analysis</div>
+        <div class="skill">Data Visualization</div>
+        <div class="skill">Statistics & Probability</div>
+        <div class="skill">NumPy & Pandas</div>
+        <div class="skill">Matplotlib & Seaborn</div>
+        <div class="skill">OpenCV</div>
+        <div class="skill">Jupyter Notebook</div>
     </div>
 </section>
 
 <section id="projects">
     <h2>Projects</h2>
 
-    <div class="project">
-        <h3>Driver Behaviour Recognition using CNN</h3>
-        <p>
-            Developed a lightweight CNN model to detect distracted or risky driving behaviours using computer vision techniques.
-        </p>
-    </div>
-
-    <div class="project">
+    <div class="card">
         <h3>Hand-Controlled Virtual Mouse</h3>
         <p>
-            Built an AI-based gesture recognition system that allows users to control their computer cursor using hand movements.
+            Developed a computer vision system enabling hands-free navigation using OpenCV and MediaPipe 
+            for real-time gesture recognition.
         </p>
     </div>
 
+    <div class="card">
+        <h3>Driver Behaviour Recognizer using CNN</h3>
+        <p>
+            Built a lightweight CNN model to classify driver behaviours and detect distracted driving patterns 
+            using deep learning techniques.
+        </p>
+    </div>
+
+</section>
+
+<section id="certifications">
+    <h2>Certifications</h2>
+    <div class="card">Python Certification — HackerRank</div>
+    <div class="card">Python Programming — Kaggle</div>
+    <div class="card">Data Science Internship — Code-Clause</div>
+    <div class="card">Machine Learning & Data Analytics — Coursera</div>
 </section>
 
 <section id="contact" class="contact">
     <h2>Contact</h2>
     <p>Email: sandeepdonthagani6022@gmail.com</p>
-    <p>Phone: +44 7352672764</p>
+    <p>Phone: +44 7352 672764</p>
 </section>
 
 <footer>
-    © 2026 Sandeep | Data Science Portfolio
+    © 2026 Sandeep Donthagani | Data Science Portfolio
 </footer>
 
 </body>
